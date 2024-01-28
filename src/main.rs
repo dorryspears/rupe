@@ -87,7 +87,6 @@ fn main() -> io::Result<()> {
         }
     }
 
-    // Print the main hash map
     for (hash, files) in &hash_map {
         println!("{}: {:?}", hash, files);
     }
