@@ -2,6 +2,7 @@
 name = "rupe"
 version = "0.2.0"
 edition = "2021"
+authors = ["Ryan Spears"]
 
 [dependencies]
 clap = { version = "4.4.12", features = ["derive"] }
